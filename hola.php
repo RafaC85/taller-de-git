@@ -1,8 +1,9 @@
 <?php
-// Autor Rafa
+// Autor: Rafa <rcasfer0805@g.educaand.es>
 // Esto es un comentario
 // El nombre por defecto es Mundo
-print "Introduce tu nombre";
-$nombre= trim(fgets(STDIN));
-@print "Hola {$nombre}\n";
+require('./lib/holaMundo.php');
+print "Introduce tu nombre:";
+$nombre = trim(fgets(STDIN));
+print new HolaMundo($nombre);
 ?>
