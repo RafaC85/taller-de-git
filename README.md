@@ -1,4 +1,5 @@
-# Curso de GIT 2025
+# Curso de GIT 2025, Noviembre
+
 Este proyecto contiene el curso de introducion a GIT
 
 Desarrollado por **Rafa**
